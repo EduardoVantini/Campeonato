@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <title>Campeonato Brasileiro 2019</title>
+		<script type="text/javascript" src="jquery-1.5.2.min.js"></script> 
+		<script type="text/javascript" src="tabela.js"></script> 
+        <style>
+        	section {
+        		width: 100%;
+        	}
+
+        	table {
+        		width:10px;
+    			margin:0em auto;
+    			font-family:Verdana;
+    			font-size:16px;
+        	}
+
+        	thead, tfoot {
+        		font-weight: bold;
+        		background-color: #39b951;
+        		color: #FFFFFF;
+        	}
+
+    		table tr td {
+    			text-align: center;
+    			padding: 6px;
+    		}
+
+    		table tr td img {
+    			width: 32px;
+    			height: 32px;
+    		}
+        </style>
+	</head>
+	<body onload="classificacao.arr_classificacao();">
+		<section>
+			<table cellspacing="0">
+				<thead>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>P</td>
+						<td>J</td>
+						<td>V</td>
+						<td>D</td>
+						<td>E</td>
+						<td>GP</td>
+						<td>GC</td>
+						<td>SG</td>
+					</tr>
+				</thead>
+				<tbody id="tBody">
+					
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="11" align="center">
+							Campeonato Brasileiro 2019
+						</td>
+					</tr>		
+				</tfoot>
+			</table>
+		</section>
+	</body>
+</html> 	
